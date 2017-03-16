@@ -103,13 +103,6 @@
                 </Mage_Tag>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <tag module="Mage_Tag">
-                    <file>tag.xml</file>
-                </tag>
-            </updates>
-        </layout>
         <secure_url>
             <tag_customer>/tag/customer/</tag_customer>
         </secure_url>

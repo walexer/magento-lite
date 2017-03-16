@@ -100,13 +100,6 @@
                 </Mage_CatalogSearch>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <catalogsearch>
-                    <file>catalogsearch.xml</file>
-                </catalogsearch>
-            </updates>
-        </layout>
     </frontend>
     <adminhtml>
         <translate>

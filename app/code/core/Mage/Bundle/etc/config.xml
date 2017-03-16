@@ -176,13 +176,6 @@
                 </Mage_Bundle>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <bundle>
-                    <file>bundle.xml</file>
-                </bundle>
-            </updates>
-        </layout>
         <product>
             <collection>
                 <attributes>

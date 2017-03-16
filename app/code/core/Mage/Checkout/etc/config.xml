@@ -217,13 +217,6 @@
                 </Mage_Checkout>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <checkout>
-                    <file>checkout.xml</file>
-                </checkout>
-            </updates>
-        </layout>
     </frontend>
     <adminhtml>
         <translate>

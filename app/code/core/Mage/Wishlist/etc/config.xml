@@ -122,13 +122,6 @@
                 </Mage_Wishlist>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <wishlist module="Mage_Wishlist">
-                    <file>wishlist.xml</file>
-                </wishlist>
-            </updates>
-        </layout>
         <events>
             <customer_login>
                 <observers>

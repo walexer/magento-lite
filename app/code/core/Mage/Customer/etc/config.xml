@@ -496,13 +496,6 @@
                 </Mage_Customer>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <customer module="Mage_Customer">
-                    <file>customer.xml</file>
-                </customer>
-            </updates>
-        </layout>
     </frontend>
     <default>
         <customer>

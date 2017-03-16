@@ -276,13 +276,6 @@
         </index>
     </global>
     <frontend>
-        <layout>
-            <updates>
-                <cataloginventory>
-                    <file>cataloginventory.xml</file>
-                </cataloginventory>
-            </updates>
-        </layout>
         <translate>
             <modules>
                 <Mage_CatalogInventory>

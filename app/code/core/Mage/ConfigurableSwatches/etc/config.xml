@@ -55,13 +55,6 @@
     </global>
 
     <frontend>
-        <layout>
-            <updates>
-                <configurableswatches module="Mage_ConfigurableSwatches">
-                    <file>configurableswatches.xml</file>
-                </configurableswatches>
-            </updates>
-        </layout>
         <translate>
             <modules>
                 <Mage_ConfigurableSwatches>

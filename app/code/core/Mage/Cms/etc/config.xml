@@ -68,13 +68,6 @@
                 </Mage_Cms>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <cms>
-                    <file>cms.xml</file>
-                </cms>
-            </updates>
-        </layout>
     </frontend>
     <adminhtml>
         <translate>

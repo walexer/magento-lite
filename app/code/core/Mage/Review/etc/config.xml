@@ -125,13 +125,6 @@
                 </Mage_Review>
             </modules>
         </translate>
-        <layout>
-            <updates>
-                <review module="Mage_Review">
-                    <file>review.xml</file>
-                </review>
-            </updates>
-        </layout>
         <events>
             <tag_tag_product_collection_load_after>
                 <observers>

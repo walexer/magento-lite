@@ -119,13 +119,6 @@
                 </args>
             </shipping>
         </routers>
-        <layout>
-            <updates>
-                <shipping>
-                    <file>shipping.xml</file>
-                </shipping>
-            </updates>
-        </layout>
     </frontend>
     <default>
         <shipping>

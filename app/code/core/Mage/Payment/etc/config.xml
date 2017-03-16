@@ -145,13 +145,6 @@
                 </observers>
             </catalog_product_type_prepare_full_options>
         </events>
-        <layout>
-            <updates>
-                <payment module="Mage_Payment">
-                    <file>payment.xml</file>
-                </payment>
-            </updates>
-        </layout>
     </frontend>
     <adminhtml>
         <translate>
