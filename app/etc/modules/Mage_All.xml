@@ -216,15 +216,6 @@
                 <Mage_Paypal/>
             </depends>
         </Mage_PaypalUk>
-        <Mage_GoogleCheckout>
-            <active>false</active>
-            <codePool>core</codePool>
-            <depends>
-                <Mage_Sales/>
-                <Mage_Payment/>
-                <Mage_Usa/>
-            </depends>
-        </Mage_GoogleCheckout>
         <Mage_Log>
             <active>true</active>
             <codePool>core</codePool>
@@ -314,13 +305,6 @@
                 <Mage_Catalog/>
             </depends>
         </Mage_Wishlist>
-        <Mage_GoogleAnalytics>
-            <active>false</active>
-            <codePool>core</codePool>
-            <depends>
-                <Mage_Core/>
-            </depends>
-        </Mage_GoogleAnalytics>
         <Mage_CatalogInventory>
             <active>true</active>
             <codePool>core</codePool>
@@ -371,17 +355,6 @@
                 <Mage_Core/>
             </depends>
         </Mage_Dataflow>
-        <Mage_Rss>
-            <active>false</active>
-            <codePool>core</codePool>
-             <depends>
-                <Mage_Catalog/>
-                <Mage_CatalogInventory/>
-                <Mage_Sales/>
-                <Mage_SalesRule/>
-                <Mage_Wishlist/>
-             </depends>
-        </Mage_Rss>
         <Mage_ProductAlert>
             <active>true</active>
             <codePool>core</codePool>
