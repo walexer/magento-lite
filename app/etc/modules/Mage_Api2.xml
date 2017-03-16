@@ -28,7 +28,7 @@
 <config>
     <modules>
         <Mage_Api2>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Core />
