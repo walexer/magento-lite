@@ -46,7 +46,7 @@
             </depends>
         </Mage_Page>
         <Mage_Install>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Core/>
@@ -183,7 +183,7 @@
             </depends>
         </Mage_Payment>
         <Mage_Usa>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Sales/>
@@ -191,14 +191,14 @@
             </depends>
         </Mage_Usa>
         <Mage_Paygate>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Payment/>
             </depends>
         </Mage_Paygate>
         <Mage_Paypal>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Paygate/>
@@ -207,7 +207,7 @@
             </depends>
         </Mage_Paypal>
         <Mage_PaypalUk>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Paygate/>
@@ -217,7 +217,7 @@
             </depends>
         </Mage_PaypalUk>
         <Mage_GoogleCheckout>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Sales/>
@@ -234,7 +234,7 @@
             </depends>
         </Mage_Log>
         <Mage_Backup>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Core/>
@@ -315,7 +315,7 @@
             </depends>
         </Mage_Wishlist>
         <Mage_GoogleAnalytics>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Core/>
@@ -337,7 +337,7 @@
              </depends>
         </Mage_GiftMessage>
         <Mage_Sendfriend>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
              <depends>
                 <Mage_Catalog/>
@@ -372,7 +372,7 @@
             </depends>
         </Mage_Dataflow>
         <Mage_Rss>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
              <depends>
                 <Mage_Catalog/>
