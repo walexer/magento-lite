@@ -139,7 +139,7 @@ class Mage_Core_Model_Translate
         }
 
         $this->_loadThemeTranslation($forceReload);
-        $this->_loadDbTranslation($forceReload);
+        //$this->_loadDbTranslation($forceReload);
 
         if (!$forceReload && $this->_canUseCache()) {
             $this->_saveCache();
