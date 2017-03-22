@@ -158,12 +158,12 @@ class Mage_Core_Model_App_Area
 
         $currentStore = Mage::app()->getStore()->getStoreId();
 
-        $designChange = Mage::getSingleton('core/design')
+        /*$designChange = Mage::getSingleton('core/design')
             ->loadChange($currentStore);
 
         if ($designChange->getData()) {
             $designPackage->setPackageName($designChange->getPackage())
                 ->setTheme($designChange->getTheme());
-        }
+        }*/
     }
 }
