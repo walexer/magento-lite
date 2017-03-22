@@ -138,7 +138,7 @@ class Mage_Core_Model_Translate
             $this->_loadModuleTranslation($moduleName, $info['files'], $forceReload);
         }
 
-        $this->_loadThemeTranslation($forceReload);
+        //$this->_loadThemeTranslation($forceReload);
         //$this->_loadDbTranslation($forceReload);
 
         if (!$forceReload && $this->_canUseCache()) {
