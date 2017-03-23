@@ -113,7 +113,7 @@ class Mage_Core_Model_Url_Rewrite_Request
 
         if (!$this->_request->isStraight()) {
             Varien_Profiler::start('mage::dispatch::db_url_rewrite');
-            $this->_rewriteDb();
+            //$this->_rewriteDb();
             Varien_Profiler::stop('mage::dispatch::db_url_rewrite');
         }
 
