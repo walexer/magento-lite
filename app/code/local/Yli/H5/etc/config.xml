@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+      <modules>
+        <Yli_H5>
+          <version>0.1.0</version>
+        </Yli_H5>
+      </modules>
+      <global>
+          <helpers>
+            <h5>
+              <class>Yli_H5_Helper</class>
+            </h5>
+          </helpers>
+      </global>
+      <frontend>
+          <routers>
+              <h5>
+                  <use>standard</use>
+                  <args>
+                      <module>Yli_H5</module>
+                      <frontName>h5</frontName>
+                  </args>
+              </h5>
+          </routers>
+      </frontend>
+</config>
